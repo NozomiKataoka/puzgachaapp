@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 
 function Gacha() {
-  const [result, setResult] = useState(null);
+  const [result, setResult1] = useState(null);
 
   const handleDraw = () => {
     const drawnItem = drawGacha();
-    setResult(drawnItem);
+    setResult1(drawnItem);
   };
 
   return (
@@ -20,5 +20,6 @@ function Gacha() {
     </div>
   );
 }
+
 
 export default Gacha;
